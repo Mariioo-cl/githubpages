@@ -1,0 +1,67 @@
+.fondo1 {
+	background-image: url("https://image.discovery.indazn.com/ca/v2/ca/image?id=ef7f2c42-09fa-4387-ad4c-37cb371c4a9b&quality=70");
+	
+}
+.titulosevilla{
+            color: white;
+            text-align: center;
+            font-size: 50px;
+}
+.intro{
+	text-align: center;
+	color:white;
+	font-size:larger;
+}
+
+.fondo{
+	background-color: #ca1438;
+	color: white;
+	
+}
+.class2{
+	  background:white;
+	  color:black;
+	border: 20px ;
+font-size:30px;
+}
+footer{
+	background:white;
+	  color:black;
+	border: 0px ;
+font-size:5px;
+}
+header {
+  background:white; /* Defineix el fons del capçalera amb un color negre semi-transparent. */
+  width: 100%; /* Estableix l'amplada del capçalera al 100% de l'ample del seu contenidor. */
+  position: fixed; /* Fixa el capçalera a la part superior de la pantalla quan l'usuari fa scroll. */
+  z-index: 100; /* Defineix la posició en l'eix Z del capçalera, permetent que estigui per sobre d'altres elements. */
+  
+}
+
+nav {
+  text-align: center; /* Alinya el contingut del navegador al centre. */
+}
+
+nav ul {
+  list-style: none; /* Elimina els estils de llistat per defecte dels elements de la llista. */
+  overflow: hidden; /* Evita que el contingut de la llista surti de la seva àrea definida. */
+  display: inline-block; /* Fa que la llista es mostri com a bloc, però es comporti com un element en línia, permetent altres elements a la mateixa línia. */
+}
+
+nav ul li {
+  float: left; /* Fa que els elements de la llista estiguin alineats horitzontalment. */
+  font-family: Arial, sans-serif; /* Defineix la tipografia del text dels elements de la llista. */
+  font-size: 16px; /* Estableix la mida de la font del text dels elements de la llista. */
+}
+
+nav ul li a {
+  display: block; /* Fa que els enllaços dins dels elements de la llista ocupin tot l'espai disponible dels elements de la llista. */
+  padding: 10px; /* Afegeix espai al voltant del contingut dels enllaços. */
+  color: black; /* Defineix el color del text dels enllaços. */
+  text-decoration: none; /* Elimina la decoració de subratllat dels enllaços. */
+}
+
+nav ul li:hover {
+  background: #ca1438; /* Defineix el color de fons dels elements de la llista quan l'usuari hi passa el ratolí per sobre. */
+  
+}
